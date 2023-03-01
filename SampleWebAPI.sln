@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1705.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebAPI", "HelloWebAPI\HelloWebAPI.csproj", "{760DFE60-4FC2-4FC8-94C1-640912A8737B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebAPI.CoreBookStoreWebAPI", "SampleWebAPI.CoreBookStoreWebAPI\SampleWebAPI.CoreBookStoreWebAPI.csproj", "{DFEC624D-207B-4781-BDE9-F30A50BCA623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{760DFE60-4FC2-4FC8-94C1-640912A8737B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{760DFE60-4FC2-4FC8-94C1-640912A8737B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{760DFE60-4FC2-4FC8-94C1-640912A8737B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEC624D-207B-4781-BDE9-F30A50BCA623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEC624D-207B-4781-BDE9-F30A50BCA623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEC624D-207B-4781-BDE9-F30A50BCA623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEC624D-207B-4781-BDE9-F30A50BCA623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
