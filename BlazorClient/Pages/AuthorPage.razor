@@ -1,0 +1,21 @@
+﻿@page "/authorpage"
+
+<h3>Authors List</h3>
+
+@if (Authors == null)
+{
+    <div class="spinner"></div>
+}
+else
+{
+    <div class="card-deck">
+        @foreach (var author in Authors)
+        {
+            <div class="card m-3" style="min-width: 18rem; max-width:30.5%;">
+                <div class="card-header">
+                    <h3>@author.FirstName @author.LastName</h3>
+                </div>
+            </div>
+        }
+    </div>
+}
